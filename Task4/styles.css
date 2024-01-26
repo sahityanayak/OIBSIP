@@ -1,0 +1,75 @@
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-color: #9e76c2;
+  }
+  
+  form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #a55897;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  input {
+    margin: 5px 0;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    width: 250px;
+  }
+  
+  button {
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    background-color: #4f1676;
+    color: #fff;
+    cursor: pointer;
+    width: 250px;
+  }
+  
+  button:hover {
+    background-color: #611974;
+  }
+  
+  .error-message {
+    color: red;
+    margin-top: 10px;
+  }
+  
+  #app {
+    text-align: center;
+  }
+  
+  #app p {
+    margin-top: 10px;
+  }
+  
+  #app a {
+    color: #02172d;
+    text-decoration: none;
+  }
+  
+  #app a:hover {
+    text-decoration: underline;
+  }
+  
+  #securedContent {
+    margin-top: 20px;
+  }
+  
+  #securedContent button {
+    background-color: #4f1676;}
+  
+  #securedContent button:hover {
+    background-color: #611974;
+  }
+  

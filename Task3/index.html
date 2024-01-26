@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Task Management System</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h2>Task Management System</h2>
+        <!-- Form to add new task -->
+        <form id="taskForm" method="post" action="Store_tasks.php">
+            <label for="employeeID">Employee ID:</label>
+            <input type="text" id="employeeID" name="employee_id" required>
+            <label for="taskTitle">Task Title:</label>
+            <input type="text" id="taskTitle" name="title" required>
+            <label for="taskDate">Date of Completion:</label>
+            <input type="date" id="taskDate" name="date" required>
+            <label for="taskDescription">Task Description:</label>
+            <textarea id="taskDescription" name="description" required></textarea>
+            <p align="center"><input type="Submit" name="Add" value="submit " ></p>    
+        </form>
+        
+
+        <!-- Button to view tasks -->
+        <p align="center"><button><a href="View_tasks.php" target="_blank">View Tasks</a></button></p>
+        
+    
+        
+    </div>
+</body>
+</html>
